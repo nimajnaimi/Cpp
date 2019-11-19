@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1516597814 source:c:\users\nima\desktop\school\cs132\library expanded\ass3.cpp
+	<iostream>
+	"library.h"
+
+1516598314 c:\users\nima\desktop\school\cs132\library expanded\library.h
+	<string>
+	<vector>
+
+1516597610 source:c:\users\nima\desktop\school\cs132\library expanded\library.cpp
+	"library.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<iterator>
+

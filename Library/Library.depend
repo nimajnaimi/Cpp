@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1515981795 source:c:\users\nima\desktop\school\cs133\library\library.cpp
+	"library.h"
+	<iostream>
+	<string>
+
+1515981880 c:\users\nima\desktop\school\cs133\library\library.h
+	<string>
+
+1515981594 source:c:\users\nima\desktop\school\cs133\library\ass2.cpp
+	<iostream>
+	"library.h"
+

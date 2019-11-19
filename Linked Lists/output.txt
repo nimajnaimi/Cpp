@@ -1,0 +1,137 @@
+Script started on Sun 18 Feb 2018 09:44:53 PM PST
+naimin@uw1-320-10:~/ucourses/css133/labs/homework6$ g++ -std=c++14 -g -Wall -Wex tra ass6.cpp list.cpp node.cpp -o ass6
+naimin@uw1-320-10:~/ucourses/css133/labs/homework6$ ./ass6
+Testing insertAtBack()
+Added 83 to the list.
+Added 86 to the list.
+Added 77 to the list.
+Added 15 to the list.
+Added 93 to the list.
+Added 35 to the list.
+Added 86 to the list.
+Added 92 to the list.
+Added 49 to the list.
+Added 21 to the list.
+The list now contains: 83 86 77 15 93 35 86 92 49 21 
+
+Testing removeFromBack()
+The list contains the values: 83 86 77 15 93 35 86 92 49 21 
+Removed 21 from the list.
+Removed 49 from the list.
+Removed 92 from the list.
+Removed 86 from the list.
+Removed 35 from the list.
+Removed 93 from the list.
+Removed 15 from the list.
+Removed 77 from the list.
+Removed 86 from the list.
+Removed 86 from the list.
+
+Testing insertAtFront()
+Added 62 to the list.
+Added 27 to the list.
+Added 90 to the list.
+Added 59 to the list.
+Added 63 to the list.
+Added 26 to the list.
+Added 40 to the list.
+Added 26 to the list.
+Added 72 to the list.
+Added 36 to the list.
+The list now contains: 36 72 26 40 26 63 59 90 27 62 
+
+Testing removeFromFront()
+The list contains the values: 36 72 26 40 26 63 59 90 27 62 
+Removed 36 from the list.
+Removed 72 from the list.
+Removed 26 from the list.
+Removed 40 from the list.
+Removed 26 from the list.
+Removed 63 from the list.
+Removed 59 from the list.
+Removed 90 from the list.
+Removed 27 from the list.
+Removed 62 from the list.
+
+Testing removing from empty list:
+removeFromFront() returned False
+removeFromBack() returned False
+naimin@uw1-320-10:~/ucourses/css133/labs/homework6$ valgrind ./ass6
+==21232== Memcheck, a memory error detector
+==21232== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==21232== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==21232== Command: ./ass6
+==21232== 
+Testing insertAtBack()
+Added 83 to the list.
+Added 86 to the list.
+Added 77 to the list.
+Added 15 to the list.
+Added 93 to the list.
+Added 35 to the list.
+Added 86 to the list.
+Added 92 to the list.
+Added 49 to the list.
+Added 21 to the list.
+The list now contains: 83 86 77 15 93 35 86 92 49 21 
+
+Testing removeFromBack()
+The list contains the values: 83 86 77 15 93 35 86 92 49 21 
+Removed 21 from the list.
+Removed 49 from the list.
+Removed 92 from the list.
+Removed 86 from the list.
+Removed 35 from the list.
+Removed 93 from the list.
+Removed 15 from the list.
+Removed 77 from the list.
+Removed 86 from the list.
+Removed 86 from the list.
+
+Testing insertAtFront()
+Added 62 to the list.
+Added 27 to the list.
+Added 90 to the list.
+Added 59 to the list.
+Added 63 to the list.
+Added 26 to the list.
+Added 40 to the list.
+Added 26 to the list.
+Added 72 to the list.
+Added 36 to the list.
+The list now contains: 36 72 26 40 26 63 59 90 27 62 
+
+Testing removeFromFront()
+The list contains the values: 36 72 26 40 26 63 59 90 27 62 
+Removed 36 from the list.
+Removed 72 from the list.
+Removed 26 from the list.
+Removed 40 from the list.
+Removed 26 from the list.
+Removed 63 from the list.
+Removed 59 from the list.
+Removed 90 from the list.
+Removed 27 from the list.
+Removed 62 from the list.
+
+Testing removing from empty list:
+removeFromFront() returned False
+removeFromBack() returned False
+==21232== 
+==21232== HEAP SUMMARY:
+==21232==     in use at exit: 72,704 bytes in 1 blocks
+==21232==   total heap usage: 22 allocs, 21 frees, 74,048 bytes allocated
+==21232== 
+==21232== LEAK SUMMARY:
+==21232==    definitely lost: 0 bytes in 0 blocks
+==21232==    indirectly lost: 0 bytes in 0 blocks
+==21232==      possibly lost: 0 bytes in 0 blocks
+==21232==    still reachable: 72,704 bytes in 1 blocks
+==21232==         suppressed: 0 bytes in 0 blocks
+==21232== Rerun with --leak-check=full to see details of leaked memory
+==21232== 
+==21232== For counts of detected and suppressed errors, rerun with: -v
+==21232== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+naimin@uw1-320-10:~/ucourses/css133/labs/homework6$ exit
+
+Script done on Sun 18 Feb 2018 09:45:19 PM PST

@@ -1,0 +1,4 @@
+Hours: 06
+Comments: I was unsure about what was expected to be done in cases with the same number, so I chose to just
+add it to the list. I also referenced some of the chapter highlights for a few functions, but made sure to
+read it over and add comments if neccessary.

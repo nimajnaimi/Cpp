@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ass8" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/adder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/adder" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="alwaysoffgate.h" />
+		<Unit filename="alwaysongate.h" />
+		<Unit filename="andgate.cpp" />
+		<Unit filename="andgate.h" />
+		<Unit filename="ass8.cpp" />
+		<Unit filename="circuit.cpp" />
+		<Unit filename="circuit.h" />
+		<Unit filename="gate.cpp" />
+		<Unit filename="gate.h" />
+		<Unit filename="notgate.cpp" />
+		<Unit filename="notgate.h" />
+		<Unit filename="orgate.cpp" />
+		<Unit filename="orgate.h" />
+		<Unit filename="xorgate.cpp" />
+		<Unit filename="xorgate.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

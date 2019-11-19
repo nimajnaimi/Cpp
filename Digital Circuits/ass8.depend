@@ -1,0 +1,130 @@
+# depslib dependency file v1.0
+1520204023 source:/Users/pisan/GDrive/teaching/2018WI/133/web/ass8/alwaysongate.cpp
+	<iostream>
+	"alwaysongate.h"
+
+1520203999 /Users/pisan/GDrive/teaching/2018WI/133/web/ass8/alwaysongate.h
+	<string>
+	"gate.h"
+
+1520207109 /Users/pisan/GDrive/teaching/2018WI/133/web/ass8/gate.h
+	<string>
+	<vector>
+
+1520207666 source:/Users/pisan/GDrive/teaching/2018WI/133/web/ass8/andgate.cpp
+	"andgate.h"
+	"gate.h"
+	<iostream>
+
+1520207582 /Users/pisan/GDrive/teaching/2018WI/133/web/ass8/andgate.h
+	"gate.h"
+
+1520208040 source:/Users/pisan/GDrive/teaching/2018WI/133/web/ass8/circuit.cpp
+	<iostream>
+	<map>
+	<queue>
+	"circuit.h"
+
+1520207910 /Users/pisan/GDrive/teaching/2018WI/133/web/ass8/circuit.h
+	<iostream>
+	<map>
+	"gate.h"
+
+1520207283 source:/Users/pisan/GDrive/teaching/2018WI/133/web/ass8/gate.cpp
+	<string>
+	<iostream>
+	"gate.h"
+
+1519945850 source:/Users/pisan/GDrive/teaching/2018WI/133/web/ass8/orgate.cpp
+	"orgate.h"
+	"andgate.h"
+	<iostream>
+
+1519943892 /Users/pisan/GDrive/teaching/2018WI/133/web/ass8/orgate.h
+	"gate.h"
+
+1520205070 source:/Users/pisan/GDrive/teaching/2018WI/133/web/ass8/main.cpp
+	<iostream>
+	"alwaysongate.h"
+	"alwaysoffgate.h"
+	"andgate.h"
+	"orgate.h"
+	"circuit.h"
+
+1520203882 source:/Users/pisan/GDrive/teaching/2018WI/133/web/ass8/alwaysoffgate.cpp
+	"alwaysoffgate.h"
+
+1520203961 /Users/pisan/GDrive/teaching/2018WI/133/web/ass8/alwaysoffgate.h
+	<string>
+	"gate.h"
+
+1520211266 source:c:\users\nima\desktop\school\cs133\digital circuits\andgate.cpp
+	"andgate.h"
+	"gate.h"
+	<iostream>
+
+1520211182 c:\users\nima\desktop\school\cs133\digital circuits\andgate.h
+	"gate.h"
+
+1520210710 c:\users\nima\desktop\school\cs133\digital circuits\gate.h
+	<string>
+	<vector>
+
+1520829064 source:c:\users\nima\desktop\school\cs133\digital circuits\ass8.cpp
+	<iostream>
+	"alwaysongate.h"
+	"alwaysoffgate.h"
+	"andgate.h"
+	"orgate.h"
+	"notgate.h"
+	"xorgate.h"
+	"circuit.h"
+
+1520211126 c:\users\nima\desktop\school\cs133\digital circuits\alwaysongate.h
+	<string>
+	"gate.h"
+
+1520826533 c:\users\nima\desktop\school\cs133\digital circuits\alwaysoffgate.h
+	<string>
+	"gate.h"
+
+1520827815 c:\users\nima\desktop\school\cs133\digital circuits\circuit.h
+	<iostream>
+	<map>
+	"gate.h"
+
+1520826534 source:c:\users\nima\desktop\school\cs133\digital circuits\circuit.cpp
+	<iostream>
+	<map>
+	<queue>
+	"circuit.h"
+
+1520210884 source:c:\users\nima\desktop\school\cs133\digital circuits\gate.cpp
+	<string>
+	<iostream>
+	"gate.h"
+
+1520827331 source:c:\users\nima\desktop\school\cs133\digital circuits\notgate.cpp
+	"notgate.h"
+	"gate.h"
+	<iostream>
+
+1520827192 c:\users\nima\desktop\school\cs133\digital circuits\notgate.h
+	"gate.h"
+
+1520827193 source:c:\users\nima\desktop\school\cs133\digital circuits\orgate.cpp
+	"orgate.h"
+	"gate.h"
+	<iostream>
+
+1520827194 c:\users\nima\desktop\school\cs133\digital circuits\orgate.h
+	"gate.h"
+
+1520829353 source:c:\users\nima\desktop\school\cs133\digital circuits\xorgate.cpp
+	"xorgate.h"
+	"gate.h"
+	<iostream>
+
+1520827276 c:\users\nima\desktop\school\cs133\digital circuits\xorgate.h
+	"gate.h"
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1517913944 source:c:\users\nima\desktop\school\cs133\midterm\main.cpp
+	<iostream>
+	<string>
+	<stack>
+	<array>
+

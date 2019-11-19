@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1517102314 source:c:\users\nima\desktop\school\cs132\complex numbers\ass4.cpp
+	<iostream>
+	"complex.h"
+
+1517095838 c:\users\nima\desktop\school\cs132\complex numbers\complex.h
+	<iostream>
+
+1517102297 source:c:\users\nima\desktop\school\cs132\complex numbers\complex.cpp
+	"complex.h"
+

@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1519002868 source:c:\users\nima\desktop\school\cs133\linked lists\main.cpp
+	"list.h"
+	<iostream>
+
+1519016542 source:c:\users\nima\desktop\school\cs133\linked lists\node.cpp
+	"node.h"
+
+1519016543 c:\users\nima\desktop\school\cs133\linked lists\node.h
+
+1519017451 source:c:\users\nima\desktop\school\cs133\linked lists\list.cpp
+	"list.h"
+	"node.h"
+	<iostream>
+
+1519016541 c:\users\nima\desktop\school\cs133\linked lists\list.h
+	"node.h"
+
+1519018177 source:c:\users\nima\desktop\school\cs133\linked lists\ass6.cpp
+	"list.h"
+	<iostream>
+

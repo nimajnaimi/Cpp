@@ -1,0 +1,67 @@
+Script started on Sun 21 Jan 2018 08:55:21 PM PST
+naimin@uw1-320-01:~/ucourses/css133/labs/lab3$ g++ -std=c++14 -g -Wall -Wextra a ss3.cpp library.cpp -o ass3
+naimin@uw1-320-01:~/ucourses/css133/labs/lab3$ ./ass3
+Library UWB created
+UWB books are:
+Ulysses
+Don Quixote
+In Search of Lost Time
+The Odyssey
+OK: Library after add is not sorted
+UWB books are:
+Don Quixote
+In Search of Lost Time
+The Odyssey
+Ulysses
+OK: Library now sorted
+OK: Added book is in library
+OK: Removed book is not in library
+UWB books are:
+Don Quixote
+In Search of Lost Time
+Ulysses
+OK: Library still sorted
+naimin@uw1-320-01:~/ucourses/css133/labs/lab3$ valgrind ./ass3
+==8663== Memcheck, a memory error detector
+==8663== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==8663== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==8663== Command: ./ass3
+==8663== 
+Library UWB created
+UWB books are:
+Ulysses
+Don Quixote
+In Search of Lost Time
+The Odyssey
+OK: Library after add is not sorted
+UWB books are:
+Don Quixote
+In Search of Lost Time
+The Odyssey
+Ulysses
+OK: Library now sorted
+OK: Added book is in library
+OK: Removed book is not in library
+UWB books are:
+Don Quixote
+In Search of Lost Time
+Ulysses
+OK: Library still sorted
+==8663== 
+==8663== HEAP SUMMARY:
+==8663==     in use at exit: 72,704 bytes in 1 blocks
+==8663==   total heap usage: 11 allocs, 10 frees, 74,098 bytes allocated
+==8663== 
+==8663== LEAK SUMMARY:
+==8663==    definitely lost: 0 bytes in 0 blocks
+==8663==    indirectly lost: 0 bytes in 0 blocks
+==8663==      possibly lost: 0 bytes in 0 blocks
+==8663==    still reachable: 72,704 bytes in 1 blocks
+==8663==         suppressed: 0 bytes in 0 blocks
+==8663== Rerun with --leak-check=full to see details of leaked memory
+==8663== 
+==8663== For counts of detected and suppressed errors, rerun with: -v
+==8663== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+naimin@uw1-320-01:~/ucourses/css133/labs/lab3$ exit
+
+Script done on Sun 21 Jan 2018 08:55:59 PM PST

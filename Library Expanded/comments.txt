@@ -1,0 +1,9 @@
+Hours: 03
+Comments: I didn't know if I was expected to modify ass3.cpp as I couldn't think of much
+else to test. Also, without modifying it I was unsure about if I am still supposed to put a
+header for it with my name? I did anyway, as a description is still needed. Would like some more
+clarification on this though.
+
+Another thing, the last assignment said something about the constructor class I used, but I didn't
+understand what it was suggesting, and whether or not it actually mattered. It said:
+"[library.h:17]: (style) Class 'Library' has a constructor with 1 argument that is not explicit."
