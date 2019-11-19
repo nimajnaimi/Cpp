@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1518394178 source:c:\users\nima\desktop\school\cs133\stl\main.cpp
+	<iostream>
+	<vector>
+	<iterator>
+	<algorithm>
+	<list>
+

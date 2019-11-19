@@ -1,0 +1,81 @@
+Script started on Sun 11 Feb 2018 09:48:35 PM PST
+naimin@uw1-320-08:~/ucourses/css133/labs/homework5$ script output.txtg++ -std=c++14 -g -Wall -Wexttra ass4.cpp complex.cpp -o ass4[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@5[C[C[C[C[C[C[C[C[C[C[C[C[K5
+naimin@uw1-320-08:~/ucourses/css133/labs/homework5$ ./ass5
+* display10vector
+Initial Fill:
+5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 
+Random:
+384, 887, 778, 916, 794, 336, 387, 493, 650, 422, 
+Sorted:
+336, 384, 387, 422, 493, 650, 778, 794, 887, 916, 
+* display10list
+Random:
+3, 8, 1, 10, 4, 7, 1, 7, 3, 7, 2, 9, 8, 10, 3, 1, 3, 4, 8, 6, 
+Sorted:
+1, 1, 1, 2, 3, 3, 3, 3, 4, 4, 6, 7, 7, 7, 8, 8, 8, 9, 10, 10, 
+Sorted Unique:
+1, 2, 3, 4, 6, 7, 8, 9, 10, 
+Square via lambda:
+1 4 9 16 36 49 64 81 100 
+Sum is: 50
+* search10
+Factorials:
+0, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800, 
+Not found 100
+Found 120 at index 5
+After swap:
+3628800, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 0, 
+After remove 120:
+3628800, 1, 2, 6, 24, 720, 5040, 40320, 362880, 0, 
+
+naimin@uw1-320-08:~/ucourses/css133/labs/homework5$ valgrind ./ass5
+==16223== Memcheck, a memory error detector
+==16223== Copyright (C) 2002-2015, and GNU GPL'd, by Julian Seward et al.
+==16223== Using Valgrind-3.11.0 and LibVEX; rerun with -h for copyright info
+==16223== Command: ./ass5
+==16223== 
+* display10vector
+Initial Fill:
+5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 
+Random:
+384, 887, 778, 916, 794, 336, 387, 493, 650, 422, 
+Sorted:
+336, 384, 387, 422, 493, 650, 778, 794, 887, 916, 
+* display10list
+Random:
+3, 8, 1, 10, 4, 7, 1, 7, 3, 7, 2, 9, 8, 10, 3, 1, 3, 4, 8, 6, 
+Sorted:
+1, 1, 1, 2, 3, 3, 3, 3, 4, 4, 6, 7, 7, 7, 8, 8, 8, 9, 10, 10, 
+Sorted Unique:
+1, 2, 3, 4, 6, 7, 8, 9, 10, 
+Square via lambda:
+1 4 9 16 36 49 64 81 100 
+Sum is: 50
+* search10
+Factorials:
+0, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 3628800, 
+Not found 100
+Found 120 at index 5
+After swap:
+3628800, 1, 2, 6, 24, 120, 720, 5040, 40320, 362880, 0, 
+After remove 120:
+3628800, 1, 2, 6, 24, 720, 5040, 40320, 362880, 0, 
+
+==16223== 
+==16223== HEAP SUMMARY:
+==16223==     in use at exit: 72,704 bytes in 1 blocks
+==16223==   total heap usage: 24 allocs, 23 frees, 74,292 bytes allocated
+==16223== 
+==16223== LEAK SUMMARY:
+==16223==    definitely lost: 0 bytes in 0 blocks
+==16223==    indirectly lost: 0 bytes in 0 blocks
+==16223==      possibly lost: 0 bytes in 0 blocks
+==16223==    still reachable: 72,704 bytes in 1 blocks
+==16223==         suppressed: 0 bytes in 0 blocks
+==16223== Rerun with --leak-check=full to see details of leaked memory
+==16223== 
+==16223== For counts of detected and suppressed errors, rerun with: -v
+==16223== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+naimin@uw1-320-08:~/ucourses/css133/labs/homework5$ exit
+
+Script done on Sun 11 Feb 2018 09:49:19 PM PST

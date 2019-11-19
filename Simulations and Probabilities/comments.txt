@@ -1,0 +1,2 @@
+Hours: 04
+Comments: The given header files didn't contain destructors, so I avoided including them

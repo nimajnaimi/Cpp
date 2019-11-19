@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1520224097 source:c:\users\nima\desktop\school\cs133\simulations and probabilities\ass7.cpp
+	<iostream>
+	"card.h"
+	"carddeck.h"
+
+1520221266 c:\users\nima\desktop\school\cs133\simulations and probabilities\card.h
+	<iostream>
+
+1520221269 c:\users\nima\desktop\school\cs133\simulations and probabilities\carddeck.h
+	<vector>
+	"card.h"
+
+1520223588 source:c:\users\nima\desktop\school\cs133\simulations and probabilities\card.cpp
+	"card.h"
+
+1520224110 source:c:\users\nima\desktop\school\cs133\simulations and probabilities\carddeck.cpp
+	"carddeck.h"
+	"time.h"
+	<algorithm>
+
